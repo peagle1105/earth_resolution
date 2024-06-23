@@ -35,18 +35,18 @@ if value == 0:
     st.markdown("<h2 style='text-align: center; color: red;'>Slide to enhance the resolution</h2>", unsafe_allow_html=True)
 elif value == 1:
     st.markdown("<h2 style='text-align: left; color: red;'>244Hz</h2>", unsafe_allow_html=True)
-    img = Image.open("low-resolution.jpg")
+    img = Image.open("low-resolution.jpg", "rb")
     st.image(img)
 elif value == 2:
     st.markdown("<h2 style='text-align: left; color: red;'>480Hz</h2>", unsafe_allow_html=True)
-    img = Image.open("medium_resolution.jpg")
+    img = Image.open("medium_resolution.jpg", "rb")
     st.image(img)
 elif value == 3:
     st.markdown("<h2 style='text-align: left; color: red;'>720Hz</h2>", unsafe_allow_html=True)
-    img = Image.open("near_high_resolution.jpg")
+    img = Image.open("near_high_resolution.jpg", "rb")
     st.image(img)
 else:
     st.markdown("<h2 style='text-align: left; color: red;'>1080Hz</h2>", unsafe_allow_html=True)
     set_png_as_page_bg("background.jpg")
-    img = Image.open("high_resolution.jpg")
+    img = Image.open("high_resolution.jpg", "rb")
     st.image(img)
