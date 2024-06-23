@@ -39,11 +39,11 @@ elif value == 1:
     st.image(img,use_column_width=True )
 elif value == 2:
     st.markdown("<h2 style='text-align: left; color: red;'>480Hz</h2>", unsafe_allow_html=True)
-    img = Image.open("fun_app/medium_resolution.jpg", "rb")
+    img = Image.open("fun_app/medium_resolution.jpg")
     st.image(img)
 elif value == 3:
     st.markdown("<h2 style='text-align: left; color: red;'>720Hz</h2>", unsafe_allow_html=True)
-    img = Image.open("fun_app/near_high_resolution.jpg", "rb")
+    img = Image.open("fun_app/near_high_resolution.jpg")
     st.image(img)
 else:
     st.markdown("<h2 style='text-align: left; color: red;'>1080Hz</h2>", unsafe_allow_html=True)
