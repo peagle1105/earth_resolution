@@ -35,7 +35,7 @@ if value == 0:
     st.markdown("<h2 style='text-align: center; color: red;'>Slide to enhance the resolution</h2>", unsafe_allow_html=True)
 elif value == 1:
     st.markdown("<h2 style='text-align: left; color: red;'>244Hz</h2>", unsafe_allow_html=True)
-    img = Image.open("low-resolution.jpg")
+    img = Image.open("/fun_app/low-resolution.jpg")
     st.image(img,use_column_width=True )
 elif value == 2:
     st.markdown("<h2 style='text-align: left; color: red;'>480Hz</h2>", unsafe_allow_html=True)
