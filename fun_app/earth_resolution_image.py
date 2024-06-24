@@ -1,6 +1,5 @@
 import streamlit as st
 import base64
-import cv2
 from PIL import Image
 
 def get_base64_of_bin_file(bin_file):
