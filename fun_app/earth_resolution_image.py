@@ -49,3 +49,5 @@ else:
     set_png_as_page_bg("fun_app/background.jpg")
     img = Image.open("fun_app/high_resolution.jpg")
     st.image(img)
+    st.audio("fun_app/MatMoc.mp3", format="audio", start_time="12s", end_time="36s", autoplay= True)
+    st.markdown(""" <style> audio {display: none;}</style>""", unsafe_allow_html=True)
