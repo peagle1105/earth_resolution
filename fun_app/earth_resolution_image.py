@@ -23,7 +23,7 @@ def set_png_as_page_bg(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
     return
 
-st.markdown("<h1 style='text-align: center; color: blue;'>PICTURE OF THE WORLD</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: blue;'>PICTURE OF MY WORLD</h1>", unsafe_allow_html=True)
 
 #Slider
 label = ':red[RESOLUTION]'
