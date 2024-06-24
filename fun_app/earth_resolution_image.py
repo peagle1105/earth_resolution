@@ -46,8 +46,8 @@ elif value == 3:
     st.image(img)
 else:
     st.markdown("<h2 style='text-align: left; color: red;'>1080Hz</h2>", unsafe_allow_html=True)
-    set_png_as_page_bg("fun_app/background.jpg")
+    set_png_as_page_bg("fun_app/flying_heart.gif")
     img = Image.open("fun_app/high_resolution.jpg")
     st.image(img)
-    st.audio("fun_app/MatMoc.mp3", format="audio", start_time="12s", end_time="36s", autoplay= True)
+    st.audio("fun_app/MatMoc.mp3", format="audio", start_time="12s", autoplay= True)
     st.markdown(""" <style> audio {display: none;}</style>""", unsafe_allow_html=True)
